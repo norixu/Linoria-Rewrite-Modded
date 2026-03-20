@@ -28,14 +28,13 @@ local Library = {
 
     HudRegistry = {};
 
-    -- Unnamed Enhancements theme defaults
-    FontColor = Color3.fromRGB(195, 200, 215);
-    FontColor2 = Color3.fromRGB(220, 225, 240);
-    MainColor = Color3.fromRGB(18, 20, 30);
-    SelectedTabColor = Color3.fromRGB(22, 26, 40);
-    BackgroundColor = Color3.fromRGB(13, 15, 23);
-    AccentColor = Color3.fromRGB(88, 110, 195);
-    OutlineColor = Color3.fromRGB(30, 34, 52);
+    FontColor = Color3.fromRGB(118, 118, 118);
+    FontColor2 = Color3.fromRGB(198, 198, 198);
+    MainColor = Color3.fromRGB(11, 11, 11);
+    SelectedTabColor = Color3.fromRGB(23, 23, 23);
+    BackgroundColor = Color3.fromRGB(15, 15, 15);
+    AccentColor = Color3.fromRGB(93, 88, 157);
+    OutlineColor = Color3.fromRGB(25, 25, 25);
 
     Black = Color3.new(0, 0, 0);
 
