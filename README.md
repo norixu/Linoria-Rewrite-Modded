@@ -9,7 +9,7 @@ Full guide covering **Library, UI creation, SaveManager, ThemeManager, configs, 
 ```lua
 local repo = "https://raw.githubusercontent.com/wally-rblx/LinoriaLib/main/"
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/norixu/Linoria-Rewrite-Modded/main/Library.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ofugii/Linoria-Rewrite-Modded/main/Library.lua"))()
 local ThemeManager = loadstring(game:HttpGet(repo .. "addons/ThemeManager.lua"))()
 local SaveManager = loadstring(game:HttpGet(repo .. "addons/SaveManager.lua"))()
 ```
@@ -218,7 +218,7 @@ Library:SetToggleKey(Enum.KeyCode.RightControl)
 ```lua
 local repo = "https://raw.githubusercontent.com/wally-rblx/LinoriaLib/main/"
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/norixu/Linoria-Rewrite-Modded/main/Library.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ofugii/Linoria-Rewrite-Modded/main/Library.lua"))()
 local ThemeManager = loadstring(game:HttpGet(repo .. "addons/ThemeManager.lua"))()
 local SaveManager = loadstring(game:HttpGet(repo .. "addons/SaveManager.lua"))()
 
