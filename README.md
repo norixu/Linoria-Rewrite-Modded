@@ -7,9 +7,9 @@ Full guide covering **Library, UI creation, SaveManager, ThemeManager, configs, 
 # ⚡ Installation
 
 ```lua
-local repo = "https://raw.githubusercontent.com/wally-rblx/LinoriaLib/main/"
+local repo = "https://raw.githubusercontent.com/ofugii/Linoria-Rewrite-Modded/main/"
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/norixu/Linoria-Rewrite-Modded/main/Library.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ofugii/Linoria-Rewrite-Modded/main/Library.lua"))()
 local ThemeManager = loadstring(game:HttpGet(repo .. "addons/ThemeManager.lua"))()
 local SaveManager = loadstring(game:HttpGet(repo .. "addons/SaveManager.lua"))()
 ```
@@ -216,9 +216,9 @@ Library:SetToggleKey(Enum.KeyCode.RightControl)
 # 🚀 FULL WORKING EXAMPLE
 
 ```lua
-local repo = "https://raw.githubusercontent.com/wally-rblx/LinoriaLib/main/"
+local repo = "https://raw.githubusercontent.com/ofugii/Linoria-Rewrite-Modded/main/"
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/norixu/Linoria-Rewrite-Modded/main/Library.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ofugii/Linoria-Rewrite-Modded/main/Library.lua"))()
 local ThemeManager = loadstring(game:HttpGet(repo .. "addons/ThemeManager.lua"))()
 local SaveManager = loadstring(game:HttpGet(repo .. "addons/SaveManager.lua"))()
 
@@ -271,7 +271,7 @@ Library:SetToggleKey(Enum.KeyCode.RightControl)
 ## UI not showing
 
 * Run script after game loads
-* Check executor supports `loadstring`
+* Check Console click F9 or Type /console `loadstring`
 
 ## Configs not saving
 
@@ -311,7 +311,6 @@ SaveManager:SetLibrary(Library)
 
 # 📄 NOTES
 
-* Requires executor with HTTP + `loadstring`
 * Configs saved locally (executor workspace)
 * Themes are shared if folder matches
 
